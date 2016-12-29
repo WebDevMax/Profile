@@ -1,0 +1,26 @@
+ <nav class="navbar navbar-default">
+	 <div class="container-fluid">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle navbar-brand" data-toggle="collapse" data-target="#myNavbar" style="margin:5px;">
+				<i style="margin-top:-10px;" class="fa fa-sort-desc fa-2x" aria-hidden="true"></i> 
+			</button>
+			<a href="#menu-toggle" class="btn btn-default navbar-brand" id="menu-toggle" style="margin-top:5px;"><i style="margin-top:-10px;" class="fa fa-bars fa-2x" aria-hidden="true"></i></a>
+		</div>
+		<div class="collapse navbar-collapse text-center" id="myNavbar">
+			<ul class="nav navbar-nav">
+				<li><a href="./css/1.html">CSS(3)</a></li>
+				<li><a href="./db/1.html">Databases</a></li>
+				<li><a href="./html/1.html">HTML(5)</a></li>
+				<li><a href="./js/1.html">Javascript</a></li>
+				<li><a href="./php/1.php">PHP</a></li>
+			</ul>
+			{if isset($user)}
+			<ul class="nav navbar-nav navbar-right">
+			<li><a href="./home/add.html">Add</a></li>
+			<li><a href="./logout.html">Logout</a></li>
+			<li><a href="./view/1.html">View</a></li>
+			</ul>
+			{/if}
+		</div>
+	</div>
+</nav>

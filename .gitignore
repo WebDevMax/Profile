@@ -1,0 +1,14 @@
+.idea/
+**/*.pyc
+**/*.log
+public/images/
+public/scripts/libs/
+public/styles/libs/
+public/uploads/
+node_modules/
+application/libraries/cocur
+application/libraries/fonts
+application/libraries/imagine
+application/libraries/michelf
+application/libraries/strana
+application/libraries/shared
